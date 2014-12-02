@@ -25,8 +25,8 @@ for tag in $svn_tags ; do
 done
 
 # Pushing to github
-git push gh freertos-master
-git push gh master
+git push gh freertos-master -f
+git push gh master -f
 git push gh --tags -f
 git checkout master
 
